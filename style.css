@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(49, 49, 49);
+    background-image: url('../../../../../Downloads/2117716-3840x2160-desktop-4k-dark-wallpaper-photo.jpg');
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    background-position: center;
+    height: 75vh;
+}
+.card {
+    width: 190px;
+    height: 254px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    z-index: 1;
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff0000;
+   }
+   
+   .yellow {
+    background-color: #ffa600;
+   }
+   
+   .green {
+    background-color: #00ff62;
+   }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Alinha os itens no centro */
+        flex-direction: row;
+        gap: 5px; /* Diminua esse valor para aproximar os cards */
+    }
+    .contenttittle{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        font-size: 100px;
+        margin-bottom: -300px;
+        margin-top: 50px;
+        font-style: normal;
+        font-family: "Lexend", sans-serif;
+        font-weight: 50px;
+        color: rgb(255, 255, 255);
+    }
+    .contentsubtittle{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        font-size: px;
+        margin-bottom: -400px;
+        margin-top: 100px;
+        font-style: normal;
+        font-family: "Lexend", sans-serif;
+        font-weight: 50px;
+        color: rgb(255, 255, 255);
+        margin-right: 445px;
+    }
+    .flexbox {
+        margin-top: 470px;
+        display: flex;
+        flex-direction: row; /* Deixa os cards lado a lado */
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    #area{
+        margin-left: 55px;
+        font-family: "Lexend", sans-serif;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+    }
+    #idade{
+        margin-left: 55px;
+        font-family: "Lexend", sans-serif;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+    }
+    #idade2{
+        margin-left: 45px;
+        color: rgb(0, 0, 0);
+    }
+    #estudando{
+        margin-left: 18px;
+        font-family: "Lexend", sans-serif;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+    }
+    p{
+        margin-left: 25px;
+        font-family: "Lexend", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+   
